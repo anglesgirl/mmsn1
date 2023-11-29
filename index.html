@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>魔法少女セラフィエール  Telegram@kcziyuan</title>
-    </head>
-   <body style="background-color: black">
-<h1><a href="./index1.html">Go</a></h1>
-            </body>
+<meta charset="utf-8">
+<head>
+    <style>
+       .start-game-button {
+            background-color: #4CAF50; /* 绿色 */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<button class="start-game-button">开始游戏</button>
+<script>
+    document.querySelector('.start-game-button').addEventListener('click', function() {
+        window.location.href = 'index1.html'; // 替换为你想要加载的网页地址
+    });
+</script>
+</body>
 </html>
